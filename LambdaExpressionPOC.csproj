@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LambdaExpressionPOC.PredicateDelegate</StartupObject>
+    <StartupObject>LambdaExpressionPOC.Predicate</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LambdaPOC.cs" />
+    <Compile Include="Predicate.cs" />
     <Compile Include="PredicateDelegate.cs" />
     <Compile Include="PredicatePOC.cs" />
     <Compile Include="Program.cs" />
